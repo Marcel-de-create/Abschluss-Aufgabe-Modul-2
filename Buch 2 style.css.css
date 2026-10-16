@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: fantasy;
+  background: url(./DPDA\ Teil\ 2\ Hintergrund.jpg);
+  background-size: cover;
+}
+.h1 {
+  margin-top: 100px;
+  color: rgb(176, 176, 9);
+  font-size: 3rem;
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: black 2px 2px 2px;
+}
+
+.overlay {
+  display: block;
+  padding: 10px 12px;
+  font-size: 20px;
+  background-color: transparent;
+  border: 2px solid #070a0d;
+  border-radius: 4px;
+  outline: none;
+  color: rgb(176, 176, 9);
+  text-shadow: black 1px 1px 1px;
+  position: absolute;
+  top: 200px;
+  left: 400px;
+  right: 400px;
+}
+
+.action-button {
+  margin-left: 650px;
+  margin-top: 1050px;
+  width: fit-content;
+  display: inline-block;
+  padding: 20px 20px;
+  font-size: 1.2rem;
+  border: 1px solid #070a0d;
+  color: white;
+  background-color: red;
+  text-decoration: none;
+  text-shadow: black 1px 1px 1px;
+}
+
+.action-button:hover {
+  background-color: rgb(176, 176, 9);
+  color: #f5f9f6;
+  text-shadow: black 1px 1px 1px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+  padding: 1rem 1rem;
+  font-size: 0.8rem;
+  text-align: center;
+  background-color: rgb(176, 176, 9);
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-item {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-copyright {
+  margin-left: 1rem;
+}
